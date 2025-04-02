@@ -46,4 +46,8 @@
 	  <servlet-name>crud</servlet-name>
 	  <url-pattern>/delete</url-pattern>
   </servlet-mapping>
+  <servlet-mapping>
+	  <servlet-name>crud</servlet-name>
+	  <url-pattern>/truncate</url-pattern>
+  </servlet-mapping>
 </web-app>

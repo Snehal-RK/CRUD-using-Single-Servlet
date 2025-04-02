@@ -105,6 +105,7 @@ public class CRUD extends HttpServlet {
 		
 		// Create - store data to the database through form with post method
 		if(servletRequest.equals("register") && method.equals("POST")) {
+
 			UserEntity entity = new UserEntity();
 			entity.setUsername(request.getParameter("regUsername"));
 			entity.setPassword(request.getParameter("regPassword"));
